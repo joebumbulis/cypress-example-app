@@ -50,7 +50,7 @@
         "project_name": "cypress-example-kitchensink",
         "build_name": "Browserstack Demo",
         "exclude": "cypress/e2e/2-advanced-examples/*",
-        "parallels": 2,
+        "parallels": 5,
         "npm_dependencies": {},
         "package_config_options": {},
         "headless": true
