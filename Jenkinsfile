@@ -3,7 +3,7 @@ pipeline {
     any { label 't1.small' }
   }
 
-  tools { nodejs "nodejs" }
+  tools { nodejs "Node19Cypress" }
 
   stages {
     // first stage installs node dependencies and Cypress binary
