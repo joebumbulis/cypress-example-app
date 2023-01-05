@@ -21,7 +21,7 @@ pipeline {
     stage('browserstack parallel tests') {
 
       steps {
-             browserstack(credentialsId: '6dedd844-ce9b-4bcc-bca1-3c85ad103f8c') {
+             browserstack(credentialsId: '3e4573b5-0c1b-4809-a3d9-f84b6c4f3fcd') {
                  sh 'npm install -g browserstack-cypress-cli'
                  sh 'browserstack-cypress run --sync'
              }
