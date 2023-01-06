@@ -2,6 +2,7 @@ pipeline {
   agent { 
     any { label 't1.small' }
   }
+  
   tools { nodejs "Node19Cypress" }
 
   stages {
