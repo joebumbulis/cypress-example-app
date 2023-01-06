@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    buildName = process.env.JENKINS_LABEL
+    buildName = process.env.BROWSERSTACK_BUILD_NAME
   }
   agent { 
     any { label 't1.small' }
