@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    buildName = process.env.BROWSERSTACK_BUILD_NAME
+    buildName = env.BROWSERSTACK_BUILD_NAME
   }
   agent { 
     any { label 't1.small' }
