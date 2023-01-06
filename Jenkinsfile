@@ -19,7 +19,7 @@ pipeline {
       steps {
              browserstack(credentialsId: '3e4573b5-0c1b-4809-a3d9-f84b6c4f3fcd') {
                  sh 'npm install -g browserstack-cypress-cli'
-                 sh "browserstack-cypress run -b ${buildName} --sync"
+                 sh "browserstack-cypress run --build-name ${buildName} --sync"
              }
          }
     }
